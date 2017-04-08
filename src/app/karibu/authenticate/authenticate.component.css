@@ -1,4 +1,4 @@
-.container{
+.container.page{
   margin-top: 6em;
 }
 
@@ -18,6 +18,10 @@
   overflow: hidden;
   background-color: #FFF;
 }
+.tab1{
+  margin-left: 10em;
+}
+
 .login-container .loginbox .loginbox-title {
   position: relative;
   text-align: center;
