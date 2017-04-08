@@ -1,0 +1,420 @@
+.container{
+  margin-top: 6em;
+}
+
+.login-container {
+  width: 480px;
+  margin: 0 auto;
+}
+.login-page .login-container {
+  background-color: transparent;
+  padding: 5px;
+  border: 5px solid #FFF;
+}
+.login-container .loginbox {
+  position: relative;
+  padding: 20px;
+  border: 1px solid #F1F1F1;
+  overflow: hidden;
+  background-color: #FFF;
+}
+.login-container .loginbox .loginbox-title {
+  position: relative;
+  text-align: center;
+  color: #242424;
+  padding-bottom: 20px;
+  font-weight: 600;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+.login-container .loginbox p {
+  position: relative;
+  text-align: center;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+}
+.login-container .loginbox .loginbox-or {
+  position: relative;
+  text-align: center;
+  height: 100px;
+}
+.login-container .loginbox .loginbox-or .or-line {
+  position: absolute;
+  height: 1px;
+  top: 50px;
+  left: 40px;
+  right: 40px;
+  background-color: #ccc;
+}
+.login-container .loginbox .loginbox-or .or {
+  position: absolute;
+  top: 40px;
+  -lh-property: 0;
+  left: -webkit-calc(50% - 25px);
+  left: -moz-calc(50% - 25px);
+  left: calc(50% - 25px);
+  width: 50px;
+  height: 20px;
+  background-color: #fff;
+  color: #999;
+  margin: 0 auto;
+}
+.login-container .logobox {
+  padding: 5px;
+  margin-top: 15px;
+  -webkit-box-shadow: 0 0 14px rgba(0,0,0,.1);
+  -moz-box-shadow: 0 0 14px rgba(0,0,0,.1);
+  box-shadow: 0 0 14px rgba(0,0,0,.1);
+  background-color: #fff;
+  text-align: left;
+}
+.login-container .form-control {
+  border-radius: 0;
+  height: 45px;
+  text-transform: capitalize;
+  width: 100% !important;
+}
+.login-container .loginbox-forgot {
+  font-size: 14px;
+  color: #242424;
+}
+.login-container .loginbox-forgot a:hover {
+  color: #29aafe;
+}
+.login-container .loginbox-signup {
+  font-size: 14px;
+  color: #242424;
+  margin-top: 20px;
+  float: right;
+  position: relative;
+  overflow: hidden;
+}
+.login-container .loginbox-signup a:hover {
+  color: #29aafe;
+}
+ul.social-network {
+  list-style: none;
+  display: inline;
+  margin: 0 auto;
+  padding: 0;
+  display: table;
+}
+ul.social-network li {
+  display: inline;
+  margin: 0 5px;
+}
+.social-network a.icoRss {
+  background-color: #F56505;
+  border: 2px solid #F56505;
+}
+.social-network a.icoRss:hover {
+  background-color: transparent;
+  border: 2px solid #F56505;
+}
+ul.onwhite a.icoRss:hover {
+  color: #F56505;
+}
+.social-network a.icoFacebook {
+  background-color: #3B5998;
+  border: 2px solid #3B5998;
+}
+.social-network a.icoFacebook:hover {
+  background-color: transparent;
+  border: 2px solid #3B5998;
+}
+ul.onwhite a.icoFacebook:hover {
+  color: #3B5998;
+}
+.social-network a.icoTwitter {
+  background-color: #33ccff;
+  border: 2px solid #33ccff;
+}
+.social-network a.icoTwitter:hover {
+  background-color: transparent;
+  border: 2px solid #33ccff;
+}
+ul.onwhite a.icoTwitter:hover {
+  color: #33ccff;
+}
+.social-network a.icoGoogle {
+  background-color: #BD3518;
+  border: 2px solid #BD3518;
+}
+.social-network a.icoGoogle:hover {
+  background-color: transparent;
+  border: 2px solid #BD3518;
+}
+ul.onwhite a.icoGoogle:hover {
+  color: #BD3518;
+}
+.social-network a.icoVimeo {
+  background-color: #0590B8;
+  border: 2px solid #0590B8;
+}
+.social-network a.icoVimeo:hover {
+  background-color: transparent;
+  border: 2px solid #0590B8;
+}
+ul.onwhite a.icoVimeo:hover {
+  color: #0590B8;
+}
+.social-network a.icoLinkedin {
+  background-color: #007bb7;
+  border: 2px solid #007bb7;
+}
+.social-network a.icoLinkedin:hover {
+  background-color: transparent;
+  border: 2px solid #007bb7;
+}
+ul.onwhite a.icoLinkedin:hover {
+  color: #007bb7;
+}
+.social-circle li a {
+  display: inline-block;
+  position: relative;
+  margin: 0 auto 0 auto;
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+  color: #FFF;
+}
+.social-circle li i {
+  margin: 0;
+  line-height: 45px;
+  text-align: center;
+}
+/* ---- LOGIN 2 CSS ---- */
+.login-page-2 {
+  position: relative;
+  overflow: hidden;
+  padding: 0;
+  /*background: rgba(60, 146, 202, 0.7) url("../images/coming-soon.jpg") no-repeat scroll center center / cover;*/
+}
+.login-page-2 .login {
+  background: rgba(0, 0, 0, 0) linear-gradient(45deg, #35394a 0%, #1f222e 100%) repeat scroll 0 0;
+  border-top: 5px solid #29aafe;
+  margin: auto;
+  width: 380px;
+  margin-top: 8%;
+}
+.login-page-2 .login_title {
+  color: #FFF;
+  font-size: 16px;
+  padding: 30px;
+  text-align: center;
+}
+.login-page-2 .login_fields {
+  padding-bottom: 50px;
+  position: relative;
+  overflow: hidden;
+}
+.login-page-2 .login_fields .icon {
+  left: 20px;
+  position: absolute;
+  top: 12px;
+  z-index: 1;
+  color: #FFF;
+}
+.login-page-2 .login_fields input[type="text"], body .login_fields input[type="password"] {
+  background: #32364a none repeat scroll 0 0;
+  border-style: solid none;
+  border-width: 2px medium;
+  box-shadow: none;
+  color: #FFF;
+  outline: medium none;
+  padding: 10px 50px;
+  width: 100%;
+  font-size:16px;
+  font-weight: 600;
+  line-height:20px;
+}
+.login-page-2 .login_fields_user, body .login_fields_password {
+  position: relative;
+}
+.login-page-2 .login_fields_submit {
+  margin: auto;
+  position: relative;
+  width: 80%;
+  padding-top: 30px;
+}
+.login-page-2 .login_fields_submit .forgot {
+  float: right;
+  font-size: 14px;
+  margin-top: 10px;
+  color: #606479;
+}
+.login-page-2 .login_fields_submit .forgot a {
+  color: #FFF;
+  text-transform: capitalize;
+}
+.login-page-2 .login_fields_submit .forgot a:hover {
+  color: #29aafe;
+}
+.login-page-2 .login_fields_submit input {
+  color: #FFF;
+  margin: 0;
+}
+.login-page-2 .login_fields_submit input:focus {
+  box-shadow: none;
+  outline: medium none;
+}
+.login-page-2 .loginbox-or .or-line {
+  background-color: #ccc;
+  height: 1px;
+  left: 40px;
+  position: absolute;
+  right: 40px;
+  top: 10px;
+}
+.login-page-2 .loginbox-or .or {
+  background-color: #2C303F;
+  color: #999;
+  height: 20px;
+  left: calc(50% - 25px);
+  margin: 0 auto;
+  position: absolute;
+  top: 0;
+  width: 50px;
+}
+.login-page-2 .loginbox-or {
+  position: relative;
+  text-align: center;
+  height: 50px;
+}
+.login-page-2 .social {
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 30px;
+}
+/* ---- LOGIN 3 CSS ---- */
+.login-page-3 {
+  position: relative;
+  overflow: hidden;
+  background: #FFF;
+}
+.login-page-3 .login {
+  background: rgba(0, 0, 0, 0) linear-gradient(45deg, #35394a 0%, #1f222e 100%) repeat scroll 0 0;
+  border-top: 5px solid #29aafe;
+  margin: auto;
+  width: 380px;
+}
+.login-page-3 .login_title {
+  color: #FFF;
+  font-size: 30px;
+  padding: 30px;
+  text-align: center;
+}
+.login-page-3 .login_fields {
+  padding-bottom: 50px;
+  position: relative;
+  overflow: hidden;
+}
+.login-page-3 .login_fields .icon {
+  left: 20px;
+  position: absolute;
+  top: 12px;
+  z-index: 1;
+  color: #FFF;
+}
+.login-page-3 .login_fields input[type="text"], body .login_fields input[type="password"] {
+  background: #32364a none repeat scroll 0 0;
+  border-style: solid none;
+  border-width: 2px medium;
+  box-shadow: none;
+  color: #FFF;
+  outline: medium none;
+  padding: 10px 50px;
+  width: 100%;
+  font-size:16px;
+  font-weight: 600;
+  line-height:20px;
+}
+.login-page-3 .login_fields_user, body .login_fields_password {
+  position: relative;
+}
+.login-page-3 .login_fields_submit {
+  margin: auto;
+  position: relative;
+  width: 80%;
+  padding-top: 30px;
+}
+.login-page-3 .login_fields_submit .forgot {
+  float: right;
+  font-size: 14px;
+  margin-top: 10px;
+  text-transform: capitalize;
+}
+.login-page-3 .login_fields_submit .forgot a {
+  color: #FFF;
+}
+.login-page-3 .login_fields_submit .forgot a:hover {
+  color: #29aafe;
+}
+.login-page-3 .login_fields_submit input {
+  color: #FFF;
+  margin: 0;
+}
+.login-page-3 .login_fields_submit input:focus {
+  box-shadow: none;
+  outline: medium none;
+}
+.login-page-3 .loginbox-or .or-line {
+  background-color: #ccc;
+  height: 1px;
+  left: 40px;
+  position: absolute;
+  right: 40px;
+  top: 10px;
+}
+.login-page-3 .loginbox-or .or {
+  background-color: #2C303F;
+  color: #999;
+  height: 20px;
+  left: calc(50% - 25px);
+  margin: 0 auto;
+  position: absolute;
+  top: 0;
+  width: 50px;
+}
+.login-page-3 .loginbox-or {
+  position: relative;
+  text-align: center;
+  height: 50px;
+}
+.login-page-3 .social {
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 30px;
+}
+/* ---- LOGIN4 CSS ---- */
+
+.login-page-4 {
+  position: relative;
+  /*background: rgba(60, 146, 202, 0.7) url("../images/coming-soon.jpg") no-repeat scroll center center / cover;*/
+}
+.login-page-4 .login-container {
+  background-color: transparent;
+  padding: 5px;
+  border: 5px solid #FFF;
+}
+.login-page-4 .loginbox {
+  background-color: #FFF;
+}
+/* ---- LOGIN4 CSS ---- */
+
+.login-page-5 {
+  position: relative;
+  background-color: #29aafe;
+}
+.login-page-5 .login-container {
+  background-color: transparent;
+  padding: 5px;
+  border: 5px solid #FFF;
+}
+.login-page-5 .loginbox {
+  background-color: #FFF;
+}
+.register-2 {
+  padding: 30px 0 !important;
+}

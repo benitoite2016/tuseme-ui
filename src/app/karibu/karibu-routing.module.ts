@@ -6,6 +6,7 @@ import { AppComponent } from './app/app.component';
 import {MwanzoComponent} from "./mwanzo/mwanzo.component";
 import {KutuhusuComponent} from "./kutuhusu/kutuhusu.component";
 import {WasilianaNasiComponent} from "./wasiliana-nasi/wasiliana-nasi.component";
+import {AuthenticateComponent} from "./authenticate/authenticate.component";
 
 
 const routes: Routes = [
@@ -14,14 +15,15 @@ const routes: Routes = [
      {path: '', redirectTo:'mwanzo',pathMatch:'full' },
      {path:'mwanzo', component:MwanzoComponent},
      {path:'kutuhusu', component:KutuhusuComponent},
-     {path:'wasiliana', component:WasilianaNasiComponent}
+     {path:'wasiliana', component:WasilianaNasiComponent},
+     {path:'login/register',component:AuthenticateComponent}
    ]
    }
 ];
 
 @NgModule({
   imports: [
-    RouterModule.forChild(routes)
+  RouterModule.forChild(routes)
   ],
   exports: [RouterModule],
   providers: []
