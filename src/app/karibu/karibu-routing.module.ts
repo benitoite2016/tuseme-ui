@@ -9,6 +9,7 @@ import {WasilianaNasiComponent} from "./wasiliana-nasi/wasiliana-nasi.component"
 import {AuthenticateComponent} from "./authenticate/authenticate.component";
 
 
+
 const routes: Routes = [
    { path: 'karibu', component: AppComponent ,
    children:[
@@ -16,7 +17,8 @@ const routes: Routes = [
      {path:'mwanzo', component:MwanzoComponent},
      {path:'kutuhusu', component:KutuhusuComponent},
      {path:'wasiliana', component:WasilianaNasiComponent},
-     {path:'login/register',component:AuthenticateComponent}
+     {path:'ingia',component:AuthenticateComponent},
+
    ]
    }
 ];
